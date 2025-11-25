@@ -1,0 +1,87 @@
+{
+  "region_summary": {
+    "avg_sales": {
+      "North": 204895.83,
+      "South": 164145.83,
+      "West": 154895.83
+    },
+    "total_sales": {
+      "North": 4917500,
+      "South": 3939500,
+      "West": 3717500
+    },
+    "sales_std": {
+      "North": 26276.12,
+      "South": 16109.33,
+      "West": 13411.53
+    }
+  },
+  "channel_summary": {
+    "avg_sales": {
+      "Online": 186041.67,
+      "Store": 163250.0
+    },
+    "total_sales": {
+      "Online": 6697500,
+      "Store": 5877000
+    }
+  },
+  "monthly_growth": {
+    "2024-01-01": 0.0,
+    "2024-02-01": 0.0301,
+    "2024-03-01": 0.0218,
+    "2024-04-01": 0.0239,
+    "2024-05-01": 0.0264,
+    "2024-06-01": 0.0237,
+    "2024-07-01": 0.0232,
+    "2024-08-01": 0.0246,
+    "2024-09-01": 0.0212,
+    "2024-10-01": 0.0226,
+    "2024-11-01": 0.0212,
+    "2024-12-01": 0.0233
+  },
+  "correlation": {
+    "Sales": {
+      "Sales": 1.0,
+      "MarketingSpend": 0.913,
+      "WebTraffic": 0.77,
+      "CustomerSatisfaction": 0.784,
+      "NewCustomerRate": 0.793
+    },
+    "MarketingSpend": {
+      "Sales": 0.913,
+      "MarketingSpend": 1.0,
+      "WebTraffic": 0.927,
+      "CustomerSatisfaction": 0.51,
+      "NewCustomerRate": 0.842
+    },
+    "WebTraffic": {
+      "Sales": 0.77,
+      "MarketingSpend": 0.927,
+      "WebTraffic": 1.0,
+      "CustomerSatisfaction": 0.345,
+      "NewCustomerRate": 0.79
+    },
+    "CustomerSatisfaction": {
+      "Sales": 0.784,
+      "MarketingSpend": 0.51,
+      "WebTraffic": 0.345,
+      "CustomerSatisfaction": 1.0,
+      "NewCustomerRate": 0.369
+    },
+    "NewCustomerRate": {
+      "Sales": 0.793,
+      "MarketingSpend": 0.842,
+      "WebTraffic": 0.79,
+      "CustomerSatisfaction": 0.369,
+      "NewCustomerRate": 1.0
+    }
+  },
+  "marketing_vs_sales_regression": {
+    "slope": 3.5659,
+    "intercept": 54184.12,
+    "r_value": 0.9129,
+    "p_value": 0.0,
+    "stderr": 0.191
+  }
+}

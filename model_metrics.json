@@ -1,0 +1,27 @@
+{
+  "mae": 3739.736221340388,
+  "rmse": 4324.597113593865,
+  "r2": 0.976993189744601,
+  "top_features": [
+    {
+      "feature": "NewCustomers",
+      "importance": 0.4781
+    },
+    {
+      "feature": "ReturningCustomers",
+      "importance": 0.3464
+    },
+    {
+      "feature": "MarketingSpend",
+      "importance": 0.0818
+    },
+    {
+      "feature": "WebTraffic",
+      "importance": 0.067
+    },
+    {
+      "feature": "CustomerSatisfaction",
+      "importance": 0.0159
+    }
+  ]
+}
